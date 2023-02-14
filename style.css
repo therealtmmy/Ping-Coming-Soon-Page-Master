@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.head-text {
+    font-size: 40px;
+    font-family: Libre Franklin, sans-serif;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 15px;
+}
+
+.bold-text {
+    font-weight: 800;
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 30em;
+    height: 2.7em;
+    border: 0.1px solid hsl(0, 0%, 59%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 59%);
+    padding-left: 10px;
+    outline: hsl(0, 0%, 59%);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+button {
+    width: 15em;
+    height: 3em;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background: hsl(209, 33%, 12%);
+}
+
+.dashboard-img {
+    width: 50em;
+    height: 40em;
+    object-fit: contain;
+}
+
+i {
+    color: hsl(223, 87%, 63%);
+    letter-spacing: 20px;
+    margin-bottom: 20px;
+}
+
+i:hover {
+    color: hsl(209, 33%, 12%);
+}
